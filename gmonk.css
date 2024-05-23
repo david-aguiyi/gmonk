@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 * {
-    color: #ffffff;
+    color: #7c451b;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -9,12 +9,21 @@
 
 @font-face {
     font-family: Space;
-    src: url(Motley\ Forces.ttf);
+    src: url(Gomo.ttf);
+}
+
+@font-face {
+    font-family: Monkey;
+    src: url(HappyMonkey-Regular.ttf);
+}
+
+i {
+    color: white;
 }
 
 :root {
     --font-family: Space;
-    --family: "Nunito", sans-serif;
+    --family: Monkey;
 }
 a {
     text-decoration: none;
@@ -23,7 +32,7 @@ a {
 .ca-but {
     width: 100%;
     margin-top: 0.5rem;
-    border: 2px solid #ffffff;
+    border: 2px solid #7c451b;
     background-color: transparent;
     color: white;
 }
@@ -32,7 +41,7 @@ a {
 }
 
 body {
-    background: #0061ff;
+    background: #e5c79d;
     margin: 0;
     overflow-x: hidden;
     width: 100%;
@@ -68,7 +77,7 @@ small {
 }
 
 .tokenomics {
-    margin-top: 4rem;
+    margin-top: 6rem;
 }
 .section-a {
     display: flex;
@@ -82,6 +91,7 @@ small {
     text-align: center;
     font-family: var(--family);
     font-weight: 700;
+    color: white;
 }
 
 .section-a h1 {
@@ -109,42 +119,43 @@ small {
     padding-inline: 20px;
     font-family: "Courier New", Courier, monospace;
 }
-.poko-highlight {
-    color: #b4eeff;
-    background-image: -webkit-linear-gradient(
+.GMONK-highlight {
+    /* color: #b4eeff; */
+    /* background-image: -webkit-linear-gradient(
         171deg,
         rgba(37, 0, 93, 1) 0%,
         rgba(102, 0, 255, 1) 61%,
         rgba(255, 184, 91, 1) 100%
-    );
-    background-size: 200% 200%;
+    ); */
+    /* background-size: 200% 200%; */
     /* font-size: 4rem; */
-    background-clip: text;
-    -webkit-background-clip: text;
+    /* background-clip: text; */
+    /* -webkit-background-clip: text; */
     text-fill-color: transparent;
-    -webkit-text-fill-color: transparent;
-    animation: 6s infinite alternate gradientAnimation;
+    /* -webkit-text-fill-color: transparent; */
+    /* animation: 6s infinite alternate gradientAnimation; */
 }
-.poko-highlight {
-    color: #b4eeff;
-    background-image: -webkit-linear-gradient(
+.GMONK-highlight {
+    /* color: #f1c40f; */
+    /* background-image: -webkit-linear-gradient(
         1deg,
         rgba(37, 0, 93, 1) -5%,
         #0061ff 60%,
         #eccc74 80%,
         rgba(255, 184, 91, 1) 110%
-    );
-    background-size: 200% 200%;
-    background-clip: text;
-    -webkit-background-clip: text;
+    ); */
+    /* background-size: 200% 200%; */
+    /* background-clip: text; */
+    /* -webkit-background-clip: text; */
     text-fill-color: transparent;
-    -webkit-text-fill-color: transparent;
-    animation: 6s infinite alternate gradientAnimation;
+    /* -webkit-text-fill-color: transparent; */
+    /* animation: 6s infinite alternate gradientAnimation; */
 }
 
 .tokenomics h1 {
     font-size: 3.8rem;
-    color: rgb(255, 255, 255);
+    /* margin-top: 3rem; */
+    color: #7c451b;
     text-align: center;
 }
 .info {
@@ -180,14 +191,12 @@ small {
     font-family: var(--family);
     font-weight: 700;
     width: 100%;
-    /* font-size: 1.3rem; */
-    /* font-size: 3vw; */
 }
 
 .hero_button {
     margin-top: 2rem;
     margin-bottom: 4rem;
-    margin-inline: -33px;
+    margin-inline: -60px;
 }
 
 .whyimg {
@@ -200,12 +209,11 @@ small {
     margin-top: 2rem;
 }
 
-
 .hero_button button {
     font-size: 1.5rem;
     font-weight: 900;
-    background-color: rgba(255, 184, 91, 1);
-    color: #000000;
+    background-color: #7c451b;
+    color: #ffffff;
     cursor: pointer;
     display: inline-flex;
     align-items: center;
@@ -221,10 +229,11 @@ small {
 .phase {
     border-radius: 32px 32px 0 0;
     background: #db9057;
-    max-width: 300px;
+    max-width: 200px;
     margin: 0 auto;
     margin-top: 30px;
     text-align: center;
+    padding-top: 0.5rem;
     font-family: ;
     font-weight: 700;
     font-size: 2rem;
@@ -232,7 +241,7 @@ small {
 }
 
 .logo-img {
-    width: 50px;
+    width: 100px;
 }
 .center {
     /* margin-top: 22rem; */
@@ -276,7 +285,7 @@ small {
 
 header {
     display: flex;
-    background: black;
+    background: #7c451b;
     width: 90%;
     border-radius: 30px;
     flex-wrap: wrap;
@@ -323,7 +332,7 @@ a p {
 
 button {
     font-weight: 900;
-    background-color: #ffb500;
+    background-color: #e5c79d;
     /* color: rgb(39, 26, 26); */
     cursor: pointer;
     color: #000000;
@@ -586,12 +595,12 @@ h1.bold-text {
 
 .descrip {
     /* font-size: 4rem; */
-    width: 100%;
+    /* width: 100%; */
 }
 
 .descrip p {
-    font-size: 2.5rem;
-    margin-inline: -33px;
+    font-size: 2.7rem;
+    margin-inline: -60px;
 }
 
 .main-text p {
@@ -688,21 +697,20 @@ img.commerce {
     margin-bottom: -6em;
 }
 
-.poko,
+.GMONK,
 .nft-insur,
 .smart-1,
 .commerce,
 .exchange {
     padding-inline: 40px;
     font-size: 5rem;
-    margin-top: -5rem;
 }
 
 img#comm {
     margin-right: -1em;
 }
 
-.poko span,
+.GMONK span,
 .nft-insur span,
 .smart-1 span,
 .commerce span,
@@ -710,7 +718,7 @@ img#comm {
     color: var(--green-color);
 }
 
-.poko b {
+.GMONK b {
     font-size: 1.5rem;
     padding-top: 3rem;
     color: #ffffff;
@@ -721,7 +729,7 @@ img#comm {
     cursor: pointer;
     font-weight: 900;
 }
-.poko h1 {
+.GMONK h1 {
     font-size: 3rem;
     color: #ffffff;
     word-spacing: 10px;
@@ -784,13 +792,15 @@ img#comm {
 }
 
 .check ul li img {
-    padding-right: 1em;
+    padding-right: 0.6em;
+    /* fill: black; */
 }
 .check ul li p {
     color: white;
     margin-top: 5px;
-    font-family: snart;
+    font-family: "Monkey";
     font-weight: 700;
+    font-size: rem;
     word-spacing: 3px;
 }
 
@@ -820,7 +830,7 @@ img#comm {
     padding-inline: 40px;
 }
 
-.community .poko {
+.community .GMONK {
     padding: 0;
 }
 
@@ -828,15 +838,15 @@ img#comm {
     display: flex;
     width: 90%;
     /* margin-top: -3px; */
-    height: 600px;
+    height: 500px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-inline: 40px;
     flex-wrap: wrap;
     background-color: rgba(5, 5, 5, 0.2);
-    border: 2px solid #000000;
-    border-radius: 50px;
+    border: 2px solid #7c451b;
+    border-radius: 30px;
 }
 
 .fstep {
@@ -907,11 +917,6 @@ img#comm {
     box-shadow: rgba(5, 5, 5, 0.2) 0px 11px 15px 0px,
         rgba(5, 5, 5, 0.14) 0px 24px 38px 0px,
         rgba(5, 5, 5, 0.25) 0px 4px 4px 0px;
-}
-
-button.buy {
-    margin-top: 1rem;
-    background-color: #f1c40f;
 }
 
 .dimag img {
@@ -1000,9 +1005,9 @@ button.buy {
     border: 2px solid #f1c40f;
     padding: 20px;
     margin: 30px;
-    box-shadow: rgba(5, 5, 5, 0.2) 0px 11px 15px 0px,
+    /* box-shadow: rgba(5, 5, 5, 0.2) 0px 11px 15px 0px,
         rgba(5, 5, 5, 0.14) 0px 24px 38px 0px,
-        rgba(5, 5, 5, 0.25) 0px 4px 4px 0px;
+        rgba(5, 5, 5, 0.25) 0px 4px 4px 0px; */
     border-radius: 20px;
     text-align: center;
 }
@@ -1070,16 +1075,18 @@ footer p {
     margin-inline: 40px;
     flex-wrap: wrap;
     background-color: rgba(5, 5, 5, 0.2);
-    border: 2px solid #0061ff;
-    border-radius: 50px;
+    border: 2px solid #7c451b;
+    border-radius: 30px;
 }
 .token-img {
     margin-bottom: 40px;
+    width: 60px;
 }
 
 .big {
     font-size: 3rem;
     margin-top: 2rem;
+    color: white;
 }
 
 .smalle {
@@ -1097,7 +1104,7 @@ footer p {
     font-size: 1rem;
 }
 
-.poko button {
+.GMONK button {
     border-radius: 20px;
     margin-top: 1em;
     color: #000000;
@@ -1156,11 +1163,11 @@ input::-ms-selection {
 
 .contract-cont p {
     font-weight: 700;
-    color: rgb(34, 62, 145);
+    color: #ffffff;
 }
 .section-4 {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
     margin-top: 5rem;
     justify-content: center;
@@ -1373,7 +1380,7 @@ input::-ms-selection {
 
 .fcard {
     padding: 30px;
-    background-color: #222831;
+    background-color: #7c451b;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1383,7 +1390,7 @@ input::-ms-selection {
     font-size: 14px;
     margin-top: 100px;
     border-radius: 20px;
-    border: 2px solid #000000;
+    border: 2px solid #db9057;
     position: relative;
     box-shadow: rgba(5, 5, 5, 0.2) 0px 11px 15px 0px,
         rgba(5, 5, 5, 0.14) 0px 24px 38px 0px,
@@ -1408,7 +1415,7 @@ input::-ms-selection {
 }
 .fcard2 {
     padding: 30px;
-    background-color: #366cb4;
+    background-color: rgba(5, 5, 5, 0.25);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1419,7 +1426,7 @@ input::-ms-selection {
     font-size: 14px;
     font-weight: 400;
     border-radius: 20px;
-    border: 2px solid #000000;
+    border: 2px solid #7c451b;
     position: relative;
     box-shadow: rgba(5, 5, 5, 0.2) 0px 11px 15px 0px,
         rgba(5, 5, 5, 0.14) 0px 24px 38px 0px,
@@ -1428,7 +1435,9 @@ input::-ms-selection {
 
 button.buy {
     margin-top: 1rem;
-    background-color: #222831;
+    width: 200px;
+    color: white;
+    background-color: #7c451b;
 }
 
 .tools {
@@ -1465,7 +1474,7 @@ button.buy {
     font-size: 3rem;
 }
 .dimag img {
-    width: 300px;
+    width: 200px;
     position: absolute;
     top: -60px;
     left: 50%;
@@ -1484,7 +1493,7 @@ button.buy {
 }
 
 .cont h2 {
-    color: black;
+    color: #ffffff;
     font-weight: 900;
     margin-bottom: -10px;
 }
@@ -1495,12 +1504,12 @@ button.buy {
 }
 
 .cont p {
-    color: #000000;
+    color: #ffffff;
 }
 
 .ca {
-    font-family: "snart";
-    color: rgb(34, 62, 145);
+    font-family: "Space";
+    color: #7c451b;
     margin-top: 1rem;
     text-align: center;
     font-size: 2.2rem;
@@ -1512,7 +1521,7 @@ button.buy {
     justify-content: center;
     align-items: center;
     /* margin-top: 3rem; */
-    /* margin-bottom: 2rem; */
+    margin-bottom: 2rem;
 }
 input {
     background-color: rgba(0, 0, 0, 0);
@@ -1527,9 +1536,9 @@ input {
     margin-top: 0.5rem;
     font-weight: 900;
     margin-left: 0.5rem;
-    color: white;
+    color: #7c451b;
     font-size: clamp(1.2rem, 8vw - 2rem, 2rem);
-    font-family: "snart";
+    font-family: "Monkey";
 }
 
 .section-5 {
@@ -1539,19 +1548,18 @@ input {
 
 .fcard3 {
     padding: 30px;
-    background-color: #222831;
+    background-color: rgba(5, 5, 5, 0.25);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: left;
     margin: 20px;
-
     margin-top: 100px;
     font-size: 14px;
     font-weight: 400;
     border-radius: 20px;
-    border: 2px solid #000000;
+    border: 2px solid #7c451b;
     position: relative;
     box-shadow: rgba(5, 5, 5, 0.2) 0px 11px 15px 0px,
         rgba(5, 5, 5, 0.14) 0px 24px 38px 0px,
@@ -1562,11 +1570,17 @@ input {
     margin-bottom: 2rem;
     text-align: center;
     line-height: 1.8;
+    color: white;
     font-family: var(--family);
 }
 
 .ca-info h3 {
     font-weight: 900;
+}
+
+.ca-info p {
+    color: white;
+    margin-top: 1rem;
 }
 .ca-info span {
     font-weight: 800;
@@ -1577,14 +1591,16 @@ input {
 .sect-cont {
     background-color: rgba(44, 53, 82, 0.224);
     border: 2px solid #222831;
-    padding: 40px;
-    padding-block: 55px;
+    /* padding: 40px; */
+    /* padding-block: 55px; */
     /* box-shadow: rgba(5, 5, 5, 0.2) 0px 11px 15px 0px,
         rgba(5, 5, 5, 0.14) 0px 24px 38px 0px,
         rgba(5, 5, 5, 0.25) 0px 4px 4px 0px; */
-    width: 50%;
+    width: 100%;
+    /* max-width: 500px; */
     border-radius: 20px;
     text-align: center;
+    margin-bottom: 53px;
 }
 .lasimag img {
     width: 100%;
@@ -1634,7 +1650,7 @@ button img {
 }
 .fcard4 {
     padding: 30px;
-    background-color: #366cb4;
+    background-color: #7c451b;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1645,7 +1661,7 @@ button img {
     font-size: 14px;
     font-weight: 400;
     border-radius: 20px;
-    border: 2px solid #000000;
+    border: 2px solid #db9057;
     position: relative;
     box-shadow: rgba(5, 5, 5, 0.2) 0px 11px 15px 0px,
         rgba(5, 5, 5, 0.14) 0px 24px 38px 0px,
@@ -1779,7 +1795,7 @@ button img {
             font-weight: 900;
         }
 
-        .poko,
+        .GMONK,
         .commerce {
             padding: 2em;
             font-size: 1.7rem;
@@ -1789,11 +1805,11 @@ button img {
             margin: 0 auto;
         }
 
-        .poko span {
+        .GMONK span {
             color: var(--green-color);
         }
 
-        .poko b {
+        .GMONK b {
             /* font-weight: 900; */
             /* padding-bottom: 0.2rem; */
             /* line-height: 1rem; */
@@ -1844,7 +1860,7 @@ button img {
     .section-4,
     .section-about {
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
     }
@@ -1864,12 +1880,14 @@ button img {
     margin-inline: 30px;
 }
 
-.descrip p{
-    font-size: 3.5rem;
+.descrip p {
+    font-size: rem;
 }
 
-.info p{
-    font-size: 1.5rem;
+.info p {
+    font-size: 1rem;
+    margin-inline: -26px;
+    color: white;
 }
 
 .green-text {
@@ -1883,14 +1901,19 @@ button img {
 }
 
 .section-3 {
-    background-color: #000000;
+    background-color: #7c451b;
     position: relative;
     /* margin-top: 8rem; */
+    /* padding-inline: 20px; */
     margin-bottom: 5rem;
 }
 
 .section-33 h1 {
     text-align: center;
+    background: #7c451b;
+    padding-top: 33px;
+    color: white;
+    padding-inline: 33px;
 }
 
 hr.section-line {
@@ -1932,15 +1955,13 @@ img.right-img {
         /* height: 100vh; */
         padding-inline: 2rem;
         display: flex;
-       
         align-items: center;
         flex-direction: row;
         background-color: transparent;
-   
         display: flex;
         /* padding-inline: 20px; */
         margin-top: 15rem;
-        margin-inline: 1.5rem;
+        margin-inline: 4rem;
         /* flex-direction: row; */
     }
 
@@ -2155,7 +2176,7 @@ img.right-img {
 
     .section-3 {
         display: flex;
-        background-color: #a33f4b;
+        background-color: #7c451b;
         flex-direction: row-reverse;
         /* padding-inline: 20px; */
         align-items: center;
@@ -2169,10 +2190,11 @@ img.right-img {
         flex-wrap: nowrap;
     }
     .section-33 h1 {
-        background-color: #a33f4b;
+        background-color: #7c451b;
         /* margin-top:rem; */
         padding-top: 3rem;
         font-size: 3rem;
+        color: white;
     }
 
     img.hero-p2p {
@@ -2211,13 +2233,13 @@ img.right-img {
         margin-right: 50px;
     }
 
-    .poko {
+    .GMONK {
         /* padding-left: 2em; */
         /* font-size: 9rem; */
         /* width: auto; */
     }
 
-    .poko {
+    .GMONK {
         /* max-width: 700px; */
         margin-top: 0.1rem;
     }
@@ -2280,9 +2302,11 @@ img.right-img {
     }
 
     button.buy {
+        background: #7c451b;
         width: 200px;
         height: 52px;
-        font-size: 30px;
+        font-size: 25px;
+        color: white;
         font-weight: 700;
     }
 
@@ -2315,26 +2339,25 @@ img.right-img {
         text-decoration: none;
     }
     .section-e {
-        margin-top: 15rem;
+        margin-top: 1rem;
     }
     .main-text {
         font-size: clamp(1rem, 8vw - 2rem, 2rem);
         /* font-family: snart; */
     }
-    /* .sect-cont {
-        background-color: #366cb4;
-        border: 2px solid rgb(0, 0, 0);
-        padding: 40px;
-        margin: 30px;
-        box-shadow: rgba(5, 5, 5, 0.2) 0px 11px 15px 0px,
-            rgba(5, 5, 5, 0.14) 0px 24px 38px 0px,
-            rgba(5, 5, 5, 0.25) 0px 4px 4px 0px;
+    .sect-cont {
+        background-color: rgba(44, 53, 82, 0.224);
+        border: 2px solid #7c451b;
+        /* padding: 40px; */
+        /* padding-block: 55px; */
+        /* box-shadow: rgba(5, 5, 5, 0.2) 0px 11px 15px 0px,
+        rgba(5, 5, 5, 0.14) 0px 24px 38px 0px,
+        rgba(5, 5, 5, 0.25) 0px 4px 4px 0px; */
+        width: 50%;
+        /* max-width: 500px; */
         border-radius: 20px;
-        display: flex;
-        width: 1000px;
-        justify-content: space-between;
-        align-items: center;
-    } */
+        text-align: center;
+    }
     .lasimag img {
         width: 90%;
         border-radius: 20px;
@@ -2381,7 +2404,7 @@ img.right-img {
         flex-direction: row;
         justify-content: space-between; /* will change to space-around when doing media queries for laptop view */
         align-items: center;
-        background: black;
+        background: #7c451b;
         padding-inline: 40px;
         border-radius: 30px;
         height: 100px;
