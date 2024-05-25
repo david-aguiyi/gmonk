@@ -63,7 +63,7 @@ body {
     background: transparent;
     justify-content: center;
     width: 100%;
-    /* width: 444px; */
+    max-width: 1444px;
     border-radius: 40px;
     transition: 440ms 330ms ease-out;
 }
