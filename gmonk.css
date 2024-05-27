@@ -2446,6 +2446,6 @@ img.right-img {
     .descrip p {
         font-size: 3.69rem;
         width: 80%;
-        /* font-weight: 500; */
+        font-weight: 1000;
     }
 }
