@@ -9,7 +9,7 @@
 
 @font-face {
     font-family: Space;
-    src: url(Gomo.ttf);
+    src: url(HappyMonkey-Regular.ttf);
 }
 
 @font-face {
@@ -922,11 +922,28 @@ img#comm {
 .dimag img {
     width: 300px;
     position: absolute;
-    top: -60px;
+    /* top: -60px; */
     left: 50%;
     transform: translateX(-50%);
 }
 
+.dimag2 img {
+    width: 100%;
+    position: absolute;
+    top: -20px;
+    padding-inline: 52px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dimag3 img {
+    width: 300px;
+    position: absolute;
+    top: -60px;
+    /* padding-inline: 52px; */
+    left: 50%;
+    transform: translateX(-50%);
+}
 .cont {
     margin-top: 150px;
 }
@@ -1960,7 +1977,7 @@ img.right-img {
         background-color: transparent;
         display: flex;
         /* padding-inline: 20px; */
-        margin-top: 15rem;
+        /* margin-top: 15rem; */
         margin-inline: 4rem;
         /* flex-direction: row; */
     }
@@ -2061,6 +2078,13 @@ img.right-img {
         text-align: center;
         width: 400px;
     }
+
+    .dimag2 img {
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
     .info {
         /* text-align: left; */
@@ -2274,6 +2298,7 @@ img.right-img {
         font-family: var(--family);
         font-weight: 700;
         width: 80%;
+        margin-top: 1rem;
         font-size: 1.3rem;
         /* font-size: 3vw; */
     }
@@ -2419,7 +2444,7 @@ img.right-img {
     }
 
     .descrip p {
-        font-size: 5rem;
+        font-size: 3.69rem;
         width: 80%;
         /* font-weight: 500; */
     }
